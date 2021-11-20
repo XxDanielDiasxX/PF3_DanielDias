@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <main>
+      <div class="section">
+
+        <div class="title"> Poupança </div>
+
+        <div class="input">
+             <input placeholder="Nome:" type="text" id='nome' required="required">
+        </div>
+
+        <div class="input">
+             <input placeholder="Valor aplicado mensalmente:" type="text" id='valor_aplicado' required="required">
+        </div>
+
+        <div class="input">
+          <input placeholder="Digite a taxa de juros" type="text" id='taxa_de_juros' required="required">
+     </div>
+
+        <div class="input">
+          <input placeholder="Digite o número de parcelas" type="number" id='numero_de_parcelas' required="required" >
+      </div>
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
